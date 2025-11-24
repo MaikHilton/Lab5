@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="uk" data-owner="Яценко Іван">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ЛР4 — Яценко Іван, ІН-31-1</title>
+  <meta name="description" content="Лабораторна робота 4 — HTML-форми та JavaScript" />
+  <link rel="stylesheet" href="./styles/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Яценко Іван — ІН-31-1</h1>
+    <p class="subtitle">Лабораторна робота №4 — HTML-форми та JavaScript</p>
+    <nav aria-label="Головне меню">
+      <ul class="menu">
+        <li><a href="#about">Про мене</a></li>
+        <li><a href="#hobbies">Хобі</a></li>
+        <li><a href="#contacts">Контакти</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="register.html">Registration</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article id="about" class="card">
+      <h2>Про мене</h2>
+      <figure>
+        <img src="./assets/img/avatar.png" alt="Фото: Яценко Іван" title="Яценко Іван — студент групи ІН-31-1" loading="eager" fetchpriority="high">
+      </figure>
+      <p>Я — студент групи ІН-31-1, навчаюсь на факультеті комп’ютерних наук. Цікавлюсь веб-розробкою та сучасними технологіями.</p>
+    </article>
+
+    <section id="hobbies" class="card">
+      <h2>Мої хобі</h2>
+      <ul>
+        <li>Програмування</li>
+        <li>Читання науково-фантастичної літератури</li>
+        <li>Комп'ютерні ігри</li>
+      </ul>
+    </section>
+
+    <aside id="extra" class="card">
+      <h3>Цікаві факти</h3>
+      <p>Мій улюблений інструмент веб-розробника — DevTools.</p>
+      <p>Соціальні мережі: 
+        <a href="https://t.me/IvanYat" target="_blank">Telegram</a>
+      </p>
+    </aside>
+  </main>
+
+  <footer id="contacts" class="site-footer">
+    <p>Контакт: <a href="mailto:yatsenko.ivan@student.sumdu.edu.ua">yatsenko.ivan@student.sumdu.edu.ua</a></p>
+    <small>&copy; 2025 — ЛР4, HTML-форми та JavaScript</small>
+  </footer>
+</body>
+</html>
